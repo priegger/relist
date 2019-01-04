@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders title 1`] = `
+<div>
+  <h1>
+    Hello, World!
+  </h1>
+  <span>
+    0
+     - 
+    0e+0
+     -
+     
+    0.00000000000000000
+  </span>
+</div>
+`;

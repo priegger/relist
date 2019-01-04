@@ -1,0 +1,15 @@
+
+#src
+src
+
+#tests
+test
+coverage
+jest.config.js
+
+#build tools
+.travis.yml
+express.js
+
+#linters
+.prettierrc.yaml
