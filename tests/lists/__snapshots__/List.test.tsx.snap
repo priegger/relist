@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List with two items renders snapshot 1`] = `
+<ListComponent
+  list={
+    Object {
+      "items": Array [
+        "item1",
+        "item2",
+      ],
+      "name": "listName",
+    }
+  }
+>
+  <ForwardRef>
+    <Uncontrolled(Component)
+      innerRef={null}
+    >
+      <ForwardRef(Bootstrap(ListGroup))
+        onSelect={[Function]}
+      >
+        <ListGroup
+          as="div"
+          bsPrefix="list-group"
+          onSelect={[Function]}
+          variant={null}
+        >
+          <ForwardRef(ContextTransform(AbstractNav))
+            as="div"
+            className="list-group"
+            onSelect={[Function]}
+          >
+            <AbstractNav
+              as="div"
+              className="list-group"
+              onSelect={[Function]}
+            >
+              <div
+                className="list-group"
+                onKeyDown={[Function]}
+              >
+                <ForwardRef(Bootstrap(ListGroupItem))
+                  key="0"
+                >
+                  <ListGroupItem
+                    active={false}
+                    bsPrefix="list-group-item"
+                    disabled={false}
+                    variant={null}
+                  >
+                    <AbstractNavItem
+                      as="div"
+                      className="list-group-item"
+                      disabled={false}
+                      eventKey={null}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="list-group-item"
+                        data-rb-event-key={null}
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        item1
+                      </div>
+                    </AbstractNavItem>
+                  </ListGroupItem>
+                </ForwardRef(Bootstrap(ListGroupItem))>
+                <ForwardRef(Bootstrap(ListGroupItem))
+                  key="1"
+                >
+                  <ListGroupItem
+                    active={false}
+                    bsPrefix="list-group-item"
+                    disabled={false}
+                    variant={null}
+                  >
+                    <AbstractNavItem
+                      as="div"
+                      className="list-group-item"
+                      disabled={false}
+                      eventKey={null}
+                      onClick={[Function]}
+                    >
+                      <div
+                        className="list-group-item"
+                        data-rb-event-key={null}
+                        disabled={false}
+                        onClick={[Function]}
+                      >
+                        item2
+                      </div>
+                    </AbstractNavItem>
+                  </ListGroupItem>
+                </ForwardRef(Bootstrap(ListGroupItem))>
+              </div>
+            </AbstractNav>
+          </ForwardRef(ContextTransform(AbstractNav))>
+        </ListGroup>
+      </ForwardRef(Bootstrap(ListGroup))>
+    </Uncontrolled(Component)>
+  </ForwardRef>
+</ListComponent>
+`;

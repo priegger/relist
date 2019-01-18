@@ -6,7 +6,9 @@ module.exports = {
         '^.+\\.tsx?$': 'ts-jest',
     },
     transformIgnorePatterns: ['/node_modules/'],
-    testRegex: '/tests/.*\\.(ts|tsx)$',
+    testRegex: '/tests/.*\\.test.(ts|tsx)$',
     moduleDirectories: ['node_modules'],
+    setupTestFrameworkScriptFile: '<rootDir>/tests/setup.js',
     collectCoverageFrom: ['src/**/*.*?'],
+    snapshotSerializers: ['enzyme-to-json/serializer'],
 }

@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClickableListNamesComponent renders empty list 1`] = `
+<ClickableListNamesComponent
+  listNames={Array []}
+  onDelete={[MockFunction]}
+  onSelect={[MockFunction]}
+>
+  <ForwardRef(ContextTransform)
+    onSelect={[Function]}
+    variant="tabs"
+  >
+    <ForwardRef
+      onSelect={[Function]}
+      variant="tabs"
+    >
+      <Uncontrolled(Component)
+        innerRef={null}
+        onSelect={[Function]}
+        variant="tabs"
+      >
+        <ForwardRef(Bootstrap(Nav))
+          onSelect={[Function]}
+          variant="tabs"
+        >
+          <Nav
+            as="div"
+            bsPrefix="nav"
+            fill={false}
+            justify={false}
+            onSelect={[Function]}
+            variant="tabs"
+          >
+            <ForwardRef(ContextTransform(AbstractNav))
+              as="div"
+              className="nav nav-tabs"
+              onSelect={[Function]}
+            >
+              <AbstractNav
+                as="div"
+                className="nav nav-tabs"
+                onSelect={[Function]}
+              >
+                <div
+                  className="nav nav-tabs"
+                  onKeyDown={[Function]}
+                />
+              </AbstractNav>
+            </ForwardRef(ContextTransform(AbstractNav))>
+          </Nav>
+        </ForwardRef(Bootstrap(Nav))>
+      </Uncontrolled(Component)>
+    </ForwardRef>
+  </ForwardRef(ContextTransform)>
+</ClickableListNamesComponent>
+`;
+
+exports[`ClickableListNamesComponent renders list 1`] = `
+<ClickableListNamesComponent
+  listNames={
+    Array [
+      "list1",
+      "list2",
+    ]
+  }
+  onDelete={[MockFunction]}
+  onSelect={[MockFunction]}
+  selected="list1"
+>
+  <ForwardRef(ContextTransform)
+    activeKey="list1"
+    onSelect={[Function]}
+    variant="tabs"
+  >
+    <ForwardRef
+      activeKey="list1"
+      onSelect={[Function]}
+      variant="tabs"
+    >
+      <Uncontrolled(Component)
+        activeKey="list1"
+        innerRef={null}
+        onSelect={[Function]}
+        variant="tabs"
+      >
+        <ForwardRef(Bootstrap(Nav))
+          activeKey="list1"
+          onSelect={[Function]}
+          variant="tabs"
+        >
+          <Nav
+            activeKey="list1"
+            as="div"
+            bsPrefix="nav"
+            fill={false}
+            justify={false}
+            onSelect={[Function]}
+            variant="tabs"
+          >
+            <ForwardRef(ContextTransform(AbstractNav))
+              activeKey="list1"
+              as="div"
+              className="nav nav-tabs"
+              onSelect={[Function]}
+            >
+              <AbstractNav
+                activeKey="list1"
+                as="div"
+                className="nav nav-tabs"
+                onSelect={[Function]}
+              >
+                <div
+                  className="nav nav-tabs"
+                  onKeyDown={[Function]}
+                >
+                  <ForwardRef(Bootstrap(NavItem))
+                    key="0"
+                  >
+                    <NavItem
+                      as="div"
+                      bsPrefix="nav-item"
+                    >
+                      <div
+                        className="nav-item"
+                      >
+                        <ForwardRef(Bootstrap(NavLink))
+                          eventKey="list1"
+                        >
+                          <NavLink
+                            as={[Function]}
+                            bsPrefix="nav-link"
+                            disabled={false}
+                            eventKey="list1"
+                            innerRef={null}
+                          >
+                            <AbstractNavItem
+                              as={[Function]}
+                              className="nav-link"
+                              disabled={false}
+                              eventKey="list1"
+                            >
+                              <SafeAnchor
+                                as="a"
+                                className="nav-link active"
+                                data-rb-event-key="list1"
+                                disabled={false}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="nav-link active"
+                                  data-rb-event-key="list1"
+                                  href="#"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="button"
+                                >
+                                  list1
+                                </a>
+                              </SafeAnchor>
+                            </AbstractNavItem>
+                          </NavLink>
+                        </ForwardRef(Bootstrap(NavLink))>
+                      </div>
+                    </NavItem>
+                  </ForwardRef(Bootstrap(NavItem))>
+                  <ForwardRef(Bootstrap(NavItem))
+                    key="1"
+                  >
+                    <NavItem
+                      as="div"
+                      bsPrefix="nav-item"
+                    >
+                      <div
+                        className="nav-item"
+                      >
+                        <ForwardRef(Bootstrap(NavLink))
+                          eventKey="list2"
+                        >
+                          <NavLink
+                            as={[Function]}
+                            bsPrefix="nav-link"
+                            disabled={false}
+                            eventKey="list2"
+                            innerRef={null}
+                          >
+                            <AbstractNavItem
+                              as={[Function]}
+                              className="nav-link"
+                              disabled={false}
+                              eventKey="list2"
+                            >
+                              <SafeAnchor
+                                as="a"
+                                className="nav-link"
+                                data-rb-event-key="list2"
+                                disabled={false}
+                                onClick={[Function]}
+                              >
+                                <a
+                                  className="nav-link"
+                                  data-rb-event-key="list2"
+                                  href="#"
+                                  onClick={[Function]}
+                                  onKeyDown={[Function]}
+                                  role="button"
+                                >
+                                  list2
+                                </a>
+                              </SafeAnchor>
+                            </AbstractNavItem>
+                          </NavLink>
+                        </ForwardRef(Bootstrap(NavLink))>
+                      </div>
+                    </NavItem>
+                  </ForwardRef(Bootstrap(NavItem))>
+                </div>
+              </AbstractNav>
+            </ForwardRef(ContextTransform(AbstractNav))>
+          </Nav>
+        </ForwardRef(Bootstrap(Nav))>
+      </Uncontrolled(Component)>
+    </ForwardRef>
+  </ForwardRef(ContextTransform)>
+</ClickableListNamesComponent>
+`;
