@@ -21,7 +21,9 @@ export class ClickableListNamesComponent extends React.Component<ClickableListNa
         const items = this.props.listNames.map((value, index) => (
             <Nav.Item key={index}>
                 <Nav.Link eventKey={value}>{value}</Nav.Link>
-                <Button onClick={() => this.props.onDelete(value)}>X</Button>
+                <Button onClick={() => this.props.onDelete(value)} disabled={this.props.listNames.length === 1}>
+                    X
+                </Button>
             </Nav.Item>
         ))
         return (

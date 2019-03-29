@@ -121,6 +121,7 @@ exports[`App renders deeply 1`] = `
                                   </NavLink>
                                 </ForwardRef(Bootstrap(NavLink))>
                                 <ForwardRef(Bootstrap(Button))
+                                  disabled={false}
                                   onClick={[Function]}
                                 >
                                   <Button
@@ -193,6 +194,7 @@ exports[`App renders deeply 1`] = `
                                   </NavLink>
                                 </ForwardRef(Bootstrap(NavLink))>
                                 <ForwardRef(Bootstrap(Button))
+                                  disabled={false}
                                   onClick={[Function]}
                                 >
                                   <Button
@@ -265,6 +267,7 @@ exports[`App renders deeply 1`] = `
                                   </NavLink>
                                 </ForwardRef(Bootstrap(NavLink))>
                                 <ForwardRef(Bootstrap(Button))
+                                  disabled={false}
                                   onClick={[Function]}
                                 >
                                   <Button

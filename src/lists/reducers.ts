@@ -1,21 +1,17 @@
-import { combineReducers, bindActionCreators } from 'redux'
-
-import { List } from './model/List'
 import { initialState } from './model/State'
 import { ListAction } from './model/Actions'
 
-const selectedList = (current = initialState.selectedList, action: ListAction): string => {
-    if (action.type === 'SELECT_LIST') {
-        return action.name
+export const reducer = ({ selectedList, lists } = initialState, action: ListAction) => {
+    switch (action.type) {
+        case 'SELECT_LIST':
+            selectedList = action.name
+            break
+        case 'DELETE_LIST':
+            lists = lists.filter(list => list.name !== action.name)
+            if (action.name === selectedList) {
+                selectedList = lists[0].name
+            }
+            break
     }
-    return current
+    return { selectedList, lists }
 }
-
-const lists = (current = initialState.lists, action: ListAction): List[] => {
-    if (action.type === 'DELETE_LIST') {
-        return current.filter(list => list.name !== action.name)
-    }
-    return current
-}
-
-export const reducer = combineReducers({ lists, selectedList })

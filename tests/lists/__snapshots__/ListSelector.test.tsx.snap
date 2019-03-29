@@ -161,6 +161,7 @@ exports[`ClickableListNamesComponent renders list 1`] = `
                           </NavLink>
                         </ForwardRef(Bootstrap(NavLink))>
                         <ForwardRef(Bootstrap(Button))
+                          disabled={false}
                           onClick={[Function]}
                         >
                           <Button
@@ -233,6 +234,7 @@ exports[`ClickableListNamesComponent renders list 1`] = `
                           </NavLink>
                         </ForwardRef(Bootstrap(NavLink))>
                         <ForwardRef(Bootstrap(Button))
+                          disabled={false}
                           onClick={[Function]}
                         >
                           <Button
