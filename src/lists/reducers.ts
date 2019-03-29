@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux'
+import { combineReducers, bindActionCreators } from 'redux'
 
 import { List } from './model/List'
 import { initialState } from './model/State'
@@ -11,7 +11,11 @@ const selectedList = (current = initialState.selectedList, action: ListAction): 
     return current
 }
 
-const lists = (current = initialState.lists, {  }: ListAction): List[] => {
+const lists = (current = initialState.lists, action: ListAction): List[] => {
+    if (action.type === 'DELETE_LIST') {
+        return current.filter(list => list.name !== action.name)
+    }
     return current
 }
+
 export const reducer = combineReducers({ lists, selectedList })

@@ -160,6 +160,28 @@ exports[`ClickableListNamesComponent renders list 1`] = `
                             </AbstractNavItem>
                           </NavLink>
                         </ForwardRef(Bootstrap(NavLink))>
+                        <ForwardRef(Bootstrap(Button))
+                          onClick={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            bsPrefix="btn"
+                            disabled={false}
+                            innerRef={null}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            <button
+                              className="btn btn-primary"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              X
+                            </button>
+                          </Button>
+                        </ForwardRef(Bootstrap(Button))>
                       </div>
                     </NavItem>
                   </ForwardRef(Bootstrap(NavItem))>
@@ -210,6 +232,28 @@ exports[`ClickableListNamesComponent renders list 1`] = `
                             </AbstractNavItem>
                           </NavLink>
                         </ForwardRef(Bootstrap(NavLink))>
+                        <ForwardRef(Bootstrap(Button))
+                          onClick={[Function]}
+                        >
+                          <Button
+                            active={false}
+                            bsPrefix="btn"
+                            disabled={false}
+                            innerRef={null}
+                            onClick={[Function]}
+                            type="button"
+                            variant="primary"
+                          >
+                            <button
+                              className="btn btn-primary"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              X
+                            </button>
+                          </Button>
+                        </ForwardRef(Bootstrap(Button))>
                       </div>
                     </NavItem>
                   </ForwardRef(Bootstrap(NavItem))>

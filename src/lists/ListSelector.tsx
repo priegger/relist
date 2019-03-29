@@ -7,7 +7,7 @@ import { extractListState } from '../composition/store'
 import { State } from './model/State'
 import { selectList, deleteList } from './model/Actions'
 
-import { Nav } from 'react-bootstrap'
+import { Nav, Button } from 'react-bootstrap'
 
 export interface ClickableListNamesComponentProps {
     onSelect: (name: string) => {}
@@ -21,6 +21,7 @@ export class ClickableListNamesComponent extends React.Component<ClickableListNa
         const items = this.props.listNames.map((value, index) => (
             <Nav.Item key={index}>
                 <Nav.Link eventKey={value}>{value}</Nav.Link>
+                <Button onClick={() => this.props.onDelete(value)}>X</Button>
             </Nav.Item>
         ))
         return (
